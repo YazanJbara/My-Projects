@@ -1,0 +1,190 @@
+/* * {
+these create problems i don't even know what they are
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+} */
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Roboto', serif;
+  text-align: center;
+}
+
+/* .header {
+  text-align: center;
+  position: relative; you do it using margins no need for positions 
+  top: 200px;
+  line-height: 1.4;
+} */
+
+.section_title {
+  font-size: 2.5rem;
+  text-transform: uppercase;
+  font-weight: 900;
+  margin-top: 3em;
+  margin-bottom: 0;
+  color: #00a2a3;
+}
+
+.sub {
+  color: #919092;
+  font-size: 1.1rem;
+}
+
+.container {
+  /* margin-top: 50px; */
+  /* padding: 0 60px; */
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+}
+
+.card {
+  background-color: #f2f2f4;
+  width: 260px;
+  padding: 2em;
+  border-radius: 1em;
+  margin: 0 0.5em;
+}
+
+.card--light {
+  background: linear-gradient(-45deg, #e5e3e8, #fafafa);
+}
+.card--colorful {
+  background: linear-gradient(-45deg, #00a1ab, #3741a0);
+}
+.type {
+  text-transform: uppercase;
+  color: #525252;
+  font-size: 1.3rem;
+  font-weight: 700;
+  margin: 0 0 1em;
+}
+
+.price {
+  color: #00a2a3;
+  font-size: 2rem;
+  line-height: 1;
+  font-weight: 900;
+  margin: 0;
+}
+.price--special {
+  color: white;
+}
+.card--special {
+  background-color: #4b4b4b;
+}
+.button--special {
+  background-color: #00a2a3 !important;
+}
+.price span {
+  display: block;
+  font-size: 1.5625rem;
+  font-weight: 300;
+}
+.descreption {
+  color: #919092;
+  font-weight: 500;
+  margin: 2em 0;
+  line-height: 1.5;
+}
+
+.desc--special {
+  color: white;
+}
+.button {
+  background-color: #4b4b4b;
+  color: white;
+  font-size: 16px;
+  padding: 12px 24px;
+  border: none;
+  border-radius: 5px;
+  letter-spacing: 0.5px;
+  text-transform: uppercase;
+}
+.fs-500 {
+  font-size: 1.3125rem;
+  margin: 0;
+}
+.button_under {
+  display: inline-block;
+  text-decoration: none;
+  padding: 0.5em 0.75em;
+  border-radius: 0.25em;
+  text-transform: uppercase;
+  font-weight: 700;
+  background: #00a1ab;
+  color: #fff;
+  margin-top: 0.5rem;
+}
+.under {
+  color: #919092;
+  margin-top: 1rem;
+}
+
+.teams_container {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.team_member {
+  /* flex-direction: row-reverse; */
+  background-color: #abc;
+  text-align: left;
+  flex: 1 1 45%;
+  display: flex;
+  margin: 1em;
+  border-radius: 0.5em;
+  align-items: center;
+  padding: 0.5em 3em 0.5em 0.5em;
+}
+
+.team--light {
+  background: linear-gradient(-45deg, #d7d2df, #fafafa);
+}
+.name--light {
+  color: #00a1ab;
+  font-size: 1.5rem;
+}
+.position--light {
+  color: #525252;
+  font-size: 0.99rem;
+}
+.special {
+  color: #525252;
+  font-size: 1.1rem;
+}
+
+.team--dark {
+  background-color: #4b4b4b;
+}
+.name--dark {
+  color: #fafafae8;
+  font-size: 1.5rem;
+}
+.position--dark {
+  color: white;
+  font-size: 0.99rem;
+}
+.normal {
+  color: white;
+  font-size: 1.1rem;
+}
+ .name {
+  margin: 2px;
+}
+/*
+.position {
+  padding-left: 12px;
+}
+.normal,
+.special {
+  padding-left: 12px;
+} */
+.info {
+  padding-left: 12px;
+}
