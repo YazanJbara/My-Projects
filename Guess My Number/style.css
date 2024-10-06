@@ -3,4 +3,70 @@
   margin: 0;
   padding: 0;
 }
+body {
+  background-color: #212121;
+  font-family: 'Press Start 2P';
+  color: aliceblue;
+}
+
+header {
+  padding: 2rem 0.5rem;
+  display: flex;
+  justify-content: space-between;
+
+}
+p {
+  padding: 1rem 0.4rem;
+  font-size: 1.1rem;
+}
+h1 {
+  text-align: center;
+  font-size: 3.3rem;
+  /* border-bottom: 7px solid #eee; */
+  padding-bottom: 3rem;
+}
+  .break { 
+  margin-top: 3rem;
+  border: 5px solid #eee;
+} 
+.btn {
+  border: none;
+  background-color: #eee;
+  color: #222;
+  font-size: 1.2rem;
+  font-family: inherit;
+  padding: 2rem 3rem;
+  cursor: pointer;
+}
+.number {
+  font-size: 6rem;
+  text-align: center;
+  color: #212121;
+  background-color: #eee;
+  width: 200px;
+  position: relative;
+  top:-70px  ;
+  margin: 0 auto;
+  padding: 2rem;
+}
+
+main {
+  display: flex;
+  color: #eee;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.guess{
+  border: 3px solid #eee;
+  background-color: #212121;
+  padding: 1rem 0.8rem;
+}
+
+.left {
+  display: flex;
+  flex-direction: column;
+  /* justify-content: center; */
+  gap: 10px;
+}
 

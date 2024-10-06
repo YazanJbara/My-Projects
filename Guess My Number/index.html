@@ -4,30 +4,36 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap"
+      rel="stylesheet"
+    />
     <title>Document</title>
   </head>
   <body>
     <header>
-      <h1>Guess My Number</h1>
-
-      <button>Again!</button>
-
-      <p>Between 1 and 20</p>
+      <button class="btn again">Again!</button>
+      <p class="what_is">< Between 1 and 20 ></p>
     </header>
+    <h1>Guess My Number</h1>
+    <hr class="break">
 
-    <div>
-      <span>?</span>
-    </div>
+     <div class="number"><span>?</span></div>
 
-    <div class="left">
-      <button>Check!</button>
-      <span class="rectangle">rectangle</span>
-    </div>
-
-    <div class="right">
-      <p>Start guessing</p>
-      <p>Score : 20</p>
-      <p>Highest score : 0</p>
-    </div>
+    <main>
+      <section class="left">
+        <input type="number" class="guess" />
+        <button class="btn check">Check!</button>
+      </section>
+      <section class="right">
+        <p class="message">Start Guessing...</p>
+        <p class="label_score">Score :</p>
+        <p class="label_highestscore">
+          🥇 Highscore: <span class="highscore">0</span>
+        </p>
+      </section>
+    </main> 
   </body>
 </html>
